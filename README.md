@@ -1,16 +1,32 @@
-# React + Vite
+# Ryan Parekh's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+My personal portfolio site, built to showcase who I am, my skills, and my projects.
 
-Currently, two official plugins are available:
+**Live site:** [ryanparekh-portfolio.vercel.app](https://ryanparekh-portfolio.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Profile intro with a short bio
+- Skills grouped by category (languages, frameworks, tools)
+- Work experience timeline
+- Project cards linking out to live demos and source code
+- Resume download
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+The site runs locally at `http://localhost:5173`.
+
+## Project Structure
+
+Content lives in `src/data/` (`projects.js`, `skills.js`, `experience.js`, `socialLinks.js`) so new projects, skills, or roles can be added without touching component code. Components live in `src/components/`.
