@@ -48,7 +48,7 @@ function Hero() {
                 'radial-gradient(circle at 32% 28%, color-mix(in oklch, var(--color-accent) 30%, transparent), transparent 70%)',
             }}
           />
-          <div className="relative h-[240px] w-[240px] overflow-hidden rounded-full border border-border shadow-[0_24px_48px_-24px_rgba(60,40,20,0.4)]">
+          <div className="relative h-[240px] w-[240px] overflow-hidden rounded-full border border-border shadow-[0_24px_48px_-24px_rgba(20,55,35,0.4)]">
             <img
               src={profilePhoto}
               alt="Ryan Parekh"

@@ -4,7 +4,7 @@ function ProjectCard({ project, variant = 0 }) {
   const { name, description, tags, repoUrl, liveUrl, image } = project
 
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-2xl border-[1.5px] border-border bg-surface text-text transition-all duration-200 hover:-translate-y-1.5 hover:border-accent hover:shadow-[0_20px_40px_-20px_rgba(60,40,20,0.35)]">
+    <div className="group relative flex flex-col overflow-hidden rounded-2xl border-[1.5px] border-border bg-surface text-text transition-all duration-200 hover:-translate-y-1.5 hover:border-accent hover:shadow-[0_20px_40px_-20px_rgba(20,55,35,0.35)]">
       {(liveUrl || repoUrl) && (
         <a
           href={liveUrl || repoUrl}
@@ -98,17 +98,19 @@ function ProjectCard({ project, variant = 0 }) {
           ))}
         </div>
 
-        <div className="mt-auto flex items-center gap-5 pt-3.5 text-[13.5px] font-medium">
-          <a
-            href={repoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group/link relative z-10 inline-flex items-center gap-1.5 transition-colors hover:text-accent"
-          >
-            View Code
-            <ArrowRightIcon className="transition-transform duration-200 group-hover/link:translate-x-1" />
-          </a>
-        </div>
+        {repoUrl && (
+          <div className="mt-auto flex items-center gap-5 pt-3.5 text-[13.5px] font-medium">
+            <a
+              href={repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/link relative z-10 inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+            >
+              View Code
+              <ArrowRightIcon className="transition-transform duration-200 group-hover/link:translate-x-1" />
+            </a>
+          </div>
+        )}
       </div>
     </div>
   )

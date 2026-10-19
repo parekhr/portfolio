@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer
       id="contact"
-      className="scroll-mt-8 border-t-[1.5px] border-border bg-[oklch(93%_0.022_75)]"
+      className="scroll-mt-8 border-t-[1.5px] border-border bg-[oklch(93.5%_0.022_145)]"
     >
       <div className="mx-auto max-w-[1080px] px-8 py-8 md:py-10">
         <div className="flex flex-col items-start justify-between gap-5 md:flex-row md:items-center">

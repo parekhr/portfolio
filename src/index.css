@@ -4,13 +4,13 @@
   --font-serif: "Newsreader", Georgia, serif;
   --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
 
-  --color-bg: oklch(97% 0.02 75);
-  --color-surface: oklch(99.2% 0.01 75);
-  --color-border: oklch(90% 0.018 65);
-  --color-text: oklch(24% 0.02 50);
-  --color-muted: oklch(46% 0.02 50);
-  --color-accent: #c1622d;
-  --color-accent-dark: #9c4b23;
+  --color-bg: oklch(97.5% 0.015 145);
+  --color-surface: oklch(99.3% 0.007 145);
+  --color-border: oklch(90% 0.02 150);
+  --color-text: oklch(24% 0.02 155);
+  --color-muted: oklch(46% 0.02 155);
+  --color-accent: #2f7d4f;
+  --color-accent-dark: #22603b;
 }
 
 body {

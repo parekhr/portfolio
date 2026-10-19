@@ -4,14 +4,14 @@ const experience = [
     company: 'Tufts Health Plan',
     dates: 'Nov 2021 – May 2026',
     description:
-      'SAFe Agile delivery - UAT, sprint demos, and cross-functional sprint planning with product owners.',
+      'Executed UAT test cases across quarterly Program Increments, maintained Jira Align user stories in a SAFe Agile team, and joined sprint demos and planning.',
   },
   {
     title: 'Sales Admin Associate',
     company: 'Tufts Health Plan',
     dates: 'Jun 2021 – Nov 2021',
     description:
-      'Built Cognos sales reports, produced SBC documentation, and supported Salesforce data cleanup.',
+      'Built and analyzed Cognos sales reports and supported Salesforce data cleanup and migration.',
   },
   {
     title: 'Product Engine Plan Builder',
@@ -19,13 +19,6 @@ const experience = [
     dates: 'Feb 2021 – Jun 2021',
     description:
       'Configured healthcare plan structures and mapped benefits data for plan implementation.',
-  },
-  {
-    title: 'Research Assistant',
-    company: 'Wentworth Institute of Technology',
-    dates: 'Oct 2018 – Sept 2019',
-    description:
-      'Built a Python-driven robotic finger system and a timed sprinkler control system on Raspberry Pi.',
   },
 ]
 
