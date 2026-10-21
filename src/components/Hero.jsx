@@ -31,7 +31,7 @@ function Hero() {
             </a>
             <a
               href="/resume.pdf"
-              download="Ryan-Parekh-Resume.pdf"
+              download="Ryan Parekh Resume.pdf"
               className="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-border px-6 py-3.5 text-[15px] font-medium text-text transition-colors hover:border-accent hover:text-accent"
             >
               Download Resume

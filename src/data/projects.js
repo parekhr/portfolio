@@ -1,5 +1,6 @@
 import budgetTrackerDashboard from '../assets/projects/budget-tracker-dashboard.png'
 import alturaMarketShop from '../assets/projects/altura-market-shop.png'
+import familyDashboard from '../assets/projects/family-dashboard.png'
 
 const projects = [
   {
@@ -25,6 +26,8 @@ const projects = [
     description:
       'A family dashboard tablet with a monthly calendar (event CRUD and holiday markers), a home-maintenance log, and a weather panel with National Weather Service forecasts and severe-weather alerts. Backed by Supabase PostgreSQL with sign-in and row-level security isolating each household’s data.',
     tags: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+    repoUrl: 'https://github.com/parekhr/family-dashboard',
+    image: familyDashboard,
   },
 ]
 

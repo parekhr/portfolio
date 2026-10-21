@@ -46,7 +46,7 @@ function Footer() {
             </a>
             <a
               href="/resume.pdf"
-              download="Ryan-Parekh-Resume.pdf"
+              download="Ryan Parekh Resume.pdf"
               aria-label="Download resume"
               className="flex h-10 w-10 items-center justify-center rounded-full border-[1.5px] border-border text-text transition-colors hover:border-accent hover:bg-accent hover:text-white"
             >
