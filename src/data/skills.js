@@ -28,6 +28,7 @@ const skillGroups = [
     items: [
       'Git',
       'GitHub',
+      'Swagger',
       'JWT Authentication',
       'Vercel',
       'Render',

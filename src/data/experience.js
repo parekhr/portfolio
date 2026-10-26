@@ -4,7 +4,7 @@ const experience = [
     company: 'Tufts Health Plan',
     dates: 'Nov 2021 – May 2026',
     description:
-      'Executed UAT test cases across quarterly Program Increments, maintained Jira Align user stories in a SAFe Agile team, and joined sprint demos and planning.',
+      'Validated end-to-end data flow through backend REST APIs in Swagger, executed UAT test cases across DEV and SIT environments, and scoped Jira Align user stories in SAFe PI planning.',
   },
   {
     title: 'Sales Admin Associate',
