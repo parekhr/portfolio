@@ -12,7 +12,7 @@ function Hero() {
 
           <p className="max-w-[520px] text-lg leading-relaxed text-muted">
             Hello! I am a video game nerd from Quincy, Massachusetts.
-            I am open to Software Engineering or Business Analyst roles. 
+            I am open to Software Engineering, Technical Business Analyst, or IT Systems & Support roles. 
             I have always loved thinking about 'why' technology works and 'how' I would go about creating technology to solve problems at home.
             I also love the Boston Celtics!
           </p>
